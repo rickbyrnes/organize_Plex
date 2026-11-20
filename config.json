@@ -1,0 +1,25 @@
+{
+  "_comment": "Add a free API key below to enable artwork and info downloads. Leave blank to use filename-based organization only (no network lookups).",
+  "tmdb_api_key": "",
+  "omdb_api_key": "",
+
+  "provider": "auto",
+  "language": "en-US",
+  "default_year": "",
+
+  "source": ".",
+  "dest": ".",
+  "recursive": false,
+  "keep_video_name": false,
+  "extra_folder_name": "Extra",
+  "no_extras": false,
+
+  "_tv_comment": "TV series support: all season folders are created from TMDb metadata when a key is set.",
+  "tv_extras_folder_name": "Extras",
+  "season_padding": 2,
+  "include_episode_title": true,
+  "fetch_all_season_metadata": true,
+  "no_tv": false,
+
+  "interval": 30
+}
